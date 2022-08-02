@@ -1,4 +1,4 @@
-package com.naivor.adapter;
+package com.naivor.android.adapter;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.naivor.adapter", appContext.getPackageName());
+        assertEquals("com.naivor.android.adapter", appContext.getPackageName());
     }
 }

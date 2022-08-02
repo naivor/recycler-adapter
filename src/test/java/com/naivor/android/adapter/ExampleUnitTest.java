@@ -1,4 +1,4 @@
-package com.naivor.adapter;
+package com.naivor.android.adapter;
 
 import org.junit.Test;
 
