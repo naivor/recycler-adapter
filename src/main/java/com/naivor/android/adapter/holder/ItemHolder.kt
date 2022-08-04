@@ -32,6 +32,10 @@ abstract class ItemHolder<T>(binding: ViewBinding) : RecyclerAdapter.ViewHolder<
     var itemData: T? = null
 
     open fun bindData(data: T) {
+        itemView.setOnClickListener {
+            itemClick?.clickItem(position, it, data)
+        }
+
         itemData = data
         updateSelectStatus(data)
     }
